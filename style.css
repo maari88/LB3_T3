@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex-wrap: wrap; /* Дозволяє переносити елементи на нові рядки */
+}
+
+main {
+    background-image: url(https://media.istockphoto.com/id/1040250650/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8.jpg?s=612x612&w=0&k=20&c=FGYlFkLqFCKgDUm66a9R73J1WyQydq0Yjpyu85bax9o=);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+button, select {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+.block {
+    flex-basis: 40%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 15px; 
+}
+
+.text-top {
+    margin-bottom: 100px; 
+}
+
+.text-bottom {
+    margin-top: 100px; 
+}
+
